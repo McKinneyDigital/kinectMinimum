@@ -9,6 +9,6 @@
             <Image Name="Canvas"  Width="640" Height="480" Stretch="Fill" />
             
         </Viewbox>
-        <TextBlock Name="Status" Text="Test" HorizontalAlignment="Center" FontSize="36"/>
+        <TextBlock Name="Status" Text="No Kinect Detected" HorizontalAlignment="Center" FontSize="36"/>
     </Grid>
 </Window>
