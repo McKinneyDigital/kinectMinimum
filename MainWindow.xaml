@@ -1,0 +1,14 @@
+﻿<Window x:Class="KinectMinimum.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="756" Width="770"
+        Loaded="WindowLoaded" Closing="WindowClosing"
+        Name="MainWindowHandle">
+    <Grid>
+        <Viewbox HorizontalAlignment="Stretch" Margin="10" VerticalAlignment="Stretch">
+            <Image Name="Canvas"  Width="640" Height="480" Stretch="Fill" />
+            
+        </Viewbox>
+        <TextBlock Name="Status" Text="Test" HorizontalAlignment="Center" FontSize="36"/>
+    </Grid>
+</Window>
